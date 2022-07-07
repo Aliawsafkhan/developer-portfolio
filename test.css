@@ -1,3 +1,44 @@
+.first-page{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url(images/donation3.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Poppins', sans-serif;
+margin: 0;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 50%;
+    background-color:rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    color: white;
+}
+.para-content{
+    display:inline;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 60%;
+    font-size: 25px;
+    color: white;
+}
+.donate-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato , red );
+    font-weight: 700;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -128,7 +169,7 @@ h2{
     border-radius: 10px;
     margin-top: 40px;
     transition: 8ms;
-    background-color:aliceblue;
+    background-color: aliceblue;
 
     }
     .card-1:hover{
@@ -144,7 +185,7 @@ h2{
     .p-center{
         text-align: center;
     }
-
+    
 .second-half-width{
     width: 50%;
     padding-left: 5%;
@@ -163,4 +204,34 @@ h2{
     padding: 10px 30px;
     color: white;
     border-radius: 3px;
+}
+label{
+    min-height: 20vh;
+    width: 100%;
+    background: rgba(223, 78, 11, 0.582);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+input{
+    border: none;
+    padding: 15px;
+}
+button{
+    border: none;
+    padding: 15px;
+    background-color: tomato;
+    color: white;
+}
+.last{
+    justify-content: center;
+    text-align: center;
+    height: 20vh;
+    width: 100%;
+    border: none;
+    position: absolute;
+    background-color: black;
+    color: white;
 }
